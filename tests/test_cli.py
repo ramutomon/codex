@@ -1,0 +1,5 @@
+from codex.main import main
+
+
+def test_main_returns_zero() -> None:
+    assert main(["--version"]) == 0
